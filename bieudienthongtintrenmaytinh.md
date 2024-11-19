@@ -136,7 +136,7 @@ Khi cộng 2 số nguyên có dấu n-bit => KQ là n-bit và không cần quan 
 ###### Dạng 32bit - single
 >$X = (-1)^S.1,M.R^{E-127}$ 
 
-[dang32bit.png](https://github.com/thou05/coa/blob/main/img/dang32bit.png)
+![dang32bit.png](https://github.com/thou05/coa/blob/main/img/dang32bit.png)
 - S là bit dấu
 	- S = 0 -> số dương
 	- S = 1 -> số âm
@@ -149,7 +149,7 @@ Khi cộng 2 số nguyên có dấu n-bit => KQ là n-bit và không cần quan 
 ###### Dạng 64bit - double
 > $X = (-1)^S.1,M.R^{E-1023}$ 
 
-[64bit.png](https://github.com/thou05/coa/blob/main/img/64bit.png)
+![64bit.png](https://github.com/thou05/coa/blob/main/img/64bit.png)
 
 Số thực trong chuẩn IEEE 754 dạng **double precision** (64-bit) được chia thành ba phần:
 - **1 bit** cho dấu (S),
@@ -159,7 +159,7 @@ Số thực trong chuẩn IEEE 754 dạng **double precision** (64-bit) được
 ###### Dạng 80bit - double-extended
 >$X = (-1)^S.1,M.R^{E-16383}$ 
 
-[80bit.png](https://github.com/thou05/coa/blob/main/img/80bit.png)
+![80bit.png](https://github.com/thou05/coa/blob/main/img/80bit.png)
 
 ###### bias
 Trong chuẩn IEEE 754, bias - hệ số bù là một giá trị được thêm vào mũ thực (exponent) để đảm bảo rằng mũ trong biểu diễn nhị phân luôn là một số dương.
